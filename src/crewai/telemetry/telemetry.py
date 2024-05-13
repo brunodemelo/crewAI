@@ -42,7 +42,7 @@ class Telemetry:
         self.ready = False
         self.trace_set = False
         try:
-            telemetry_endpoint = "https://telemetry.crewai.com:4319"
+            telemetry_endpoint = ""
             self.resource = Resource(
                 attributes={SERVICE_NAME: "crewAI-telemetry"},
             )
